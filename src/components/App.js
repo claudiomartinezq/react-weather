@@ -14,7 +14,7 @@ const App = () => {
 
   useEffect(() => {
     if (city === '') return;
-    const getResult = async () => {
+      const getResult = async () => {
       const apiId = '64f7be31ded60c3681d6623800b90290';
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiId}`;
       let result = null;
