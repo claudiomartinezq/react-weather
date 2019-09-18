@@ -51,7 +51,7 @@ const App = () => {
   return (
     <Fragment>
       <Header title="React Weather" />
-      <div className="p-5">
+      <div className="m-5">
         <div className="row">
           <div className="col-md-6">
             <Form getSearch={getSearch} />  
