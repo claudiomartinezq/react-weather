@@ -44,7 +44,7 @@ const Form = ({getSearch}) => {
 				</div>
 
 				<div className="text-center">
-					<input type="submit" className="btn btn-dark" value="Search" />
+					<button type="submit" className="btn btn-dark">Search</button>
 				</div>
 			</form>
 		</div>
